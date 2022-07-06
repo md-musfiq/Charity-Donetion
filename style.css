@@ -1,0 +1,59 @@
+/* =========================================
+Universal style here
+==========================================*/
+*{
+    font-family: 'Source Sans Pro', sans-serif;   /*Using Google font*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F1F5F8;
+    margin: 0px 7%;
+}
+
+/* =======================================
+Header Area
+======================================= */
+.top-header{
+    background-image: url(./Img/04.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.top-banner{
+    height: 400px;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+
+.top-banner p{
+   color: rgb(236, 235, 235);
+   width: 450px;
+   text-align: center;
+   margin: auto;
+   margin-top: 20px;
+   font-size: 16px;
+   margin-bottom: 40px;
+}
+
+.top-banner a{
+    text-decoration: none;
+    background-color: tomato;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+
+.header-text{
+    padding-top: 50px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 38px;
+}
+
+/* =====================================
+Donate Area
+===================================== */
