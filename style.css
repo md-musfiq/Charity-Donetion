@@ -2,9 +2,10 @@
 Universal style here
 ==========================================*/
 *{
-    font-family: 'Source Sans Pro', sans-serif;   /*Using Google font*/
+    font-family: 'Signika Negative', sans-serif;   /*Using Google font*/
     margin: 0px;
     padding: 0px;
+    font-size: 14px;
 }
 
 body{
@@ -23,7 +24,7 @@ Header Area
 
 .top-banner{
     height: 400px;
-    width: 550px;
+    width: 600px;
     margin: auto;
     text-align: center;
 }
@@ -38,7 +39,7 @@ Header Area
    margin-bottom: 40px;
 }
 
-.top-banner a{
+.donate-button{
     text-decoration: none;
     background-color: tomato;
     color: #fff;
@@ -57,3 +58,64 @@ Header Area
 /* =====================================
 Donate Area
 ===================================== */
+.donat-area{
+    margin: 60px 0px;
+}
+
+.donat-section{
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.donat-section h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.donat-section p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.donat-section ul{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.donat-section ul li{
+    list-style: none;
+    float: left;
+}
+
+.donat-section ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #f0f1f1;
+    padding: 20px 21px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+}
+
+#active{
+    border: 2px solid tomato;
+    background-color: rgb(252, 226, 222);
+}
+
+#currancy-input{
+    padding-bottom: 5px;
+    margin-top: 80px;
+    background-color: #F1F5F8;
+    border:none;
+    border-bottom: 1px solid rgb(163, 162, 162);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.custom-margin{
+    margin-top: 100px;
+}
