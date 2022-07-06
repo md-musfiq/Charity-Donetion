@@ -2,7 +2,7 @@
 Universal style here
 ==========================================*/
 *{
-    font-family: 'Signika Negative', sans-serif;   /*Using Google font*/
+    font-family: 'Signika Negative', sans-serif;   /*Using Google font family*/
     margin: 0px;
     padding: 0px;
     font-size: 14px;
@@ -116,6 +116,172 @@ Donate Area
     margin-bottom: 40px;
 }
 
+/* =====================================
+Donate Palne Section
+===================================== */
+
+.palne-section{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.palne-section div{
+    width: 33%;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+
+.palne-section div img{
+    width: 30px;
+    margin-bottom: 15px;
+}
+
+.palne-section div p{
+    font-size: 14px;
+    text-align: left;
+}
+
+#bg-food{
+    background-color: rgb(236, 220, 236);
+}
+
+#bg-shelter{
+    background-color: rgb(163, 188, 241);
+}
+
+#bg-education{
+    background-color: rgb(208, 248, 190);
+}
+
+/* =====================================
+Donation Body Area
+===================================== */
+
+.donation-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.half-width{
+    width: 50%;
+    margin: 0px 30px;
+}
+
+.half-width h3{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.half-width p{
+    margin: 15px 0px;
+}
+
+.half-width img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
 .custom-margin{
-    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+/* =====================================
+Our Profit Area Area
+===================================== */
+
+.our-profit-area{
+    margin: 70px;
+    text-align: center;
+}
+
+.our-profit-area h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.our-profit-area h3{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.our-profit-area p{
+    margin: 0px 50px;
+}
+
+.profit-div{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.three-card{
+    width: 33%;
+}
+
+.three-card img{
+    width: 150px;
+    height: 100px;
+}
+
+.three-card h3{
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.three-card p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+/* =====================================
+Sudscribe From Area
+===================================== */
+
+.sudscribe-from{
+    margin: 30px 0px;
+    padding: 40px 0px;
+    background-color: rgb(208, 248, 190);
+}
+
+.sudscribe-from input{
+    background-color: inherit;
+    border:none;
+    background-color: rgb(218, 219, 219);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* =====================================
+Footer Area
+===================================== */
+
+.footer-area{
+    background-color: rgb(11, 11, 34);
+    height: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-area h3{
+    color: tomato;
+    font-family: 'Lobster', cursive;            /*Using Google font family*/
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+.footer-area p{
+    color: rgb(252, 226, 222);
+    font: 13px;
+    margin-top: 20px;
 }
